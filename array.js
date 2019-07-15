@@ -46,7 +46,7 @@ Ex: firstOfArray(["t","u","g","x"]) => "t"
 5
 Create a function called lastOfArray
 that take an array as a parameter
-and return the first element in an array
+and return the last element in an array
 
 Ex: lastOfArray([1,4,5]) => 5
 Ex: lastOfArray(["t","u","g","x"]) => "x"
@@ -64,7 +64,8 @@ var array = [0,5,7,9]
 
 /*
 7
-Using the console try to figure out what the thing thats (push, unshift, shift, pop) return to you
+Using the console try to figure out what the thing thats
+(push, unshift, shift, pop) return to you
 
 var array2 = [5,9,-7,3.5]
 */
