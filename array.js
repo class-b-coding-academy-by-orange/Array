@@ -91,6 +91,8 @@ var animals = ['cat', 'ele', 'bird']
 animals; => ['zebra', 'elephant']
 ** hint: animals[0]=something
 
+animals.length=2
+
 
 var nums= [1,2,3,8,9]
 nums => [5,-22,3.5,44,98,44]
@@ -132,7 +134,7 @@ that accept an array and value
 and return the entire array with add this value to the end of this array
 
 var nums= [1,2,3,8,9]
-Ex: addToEnd(nums,55) =>  [1,2,3,8,55]
+Ex: addToEnd(nums,55) =>  [1,2,3,8,9,55]
 
 **try more cases by your self
 */
@@ -233,7 +235,7 @@ that accept a string and char
 and return the times that this char repeat inside this string
 
 var string= "alex mercer madrasa rashed2 emad hala"
-Ex: repeatChar(string,"a") => 6
+Ex: repeatChar(string,"a") => 8
 Ex: repeatChar(string,"z") => 0
 
 ** solve it one time using for loop and another using while loop
@@ -262,7 +264,7 @@ that accept an array of number
 and return a new array that have the elemnt power by the index of it self
 
 var nums= [44, 5, 4, 3, 2, 10]
-Ex: powerElementIndex(nums) => [0, 5, 16, 27, 16, 100000]
+Ex: powerElementIndex(nums) => [1, 5, 16, 27, 16, 100000]
 
 ** solve it one time using for loop and another using while loop
 **try more cases by your self
