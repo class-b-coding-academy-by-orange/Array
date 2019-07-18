@@ -1,7 +1,5 @@
 console.log('Here is : ', 'array')
 
-
-
 /*
 1
 Correct the syntax error
